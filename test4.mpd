@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Created with Broadpeak BkS350 Origin Packager  (version=1.15.6-31568) -->
-<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="dynamic" availabilityStartTime="1970-01-01T00:00:00Z" publishTime="2025-11-09T19:38:43.918324Z" minimumUpdatePeriod="PT2S" timeShiftBufferDepth="PT3M" suggestedPresentationDelay="PT4S" maxSegmentDuration="PT3S" minBufferTime="PT2S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264">
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="dynamic" availabilityStartTime="1970-01-01T00:00:00Z" publishTime="2025-11-12T20:01:10.801873Z" minimumUpdatePeriod="PT2S" timeShiftBufferDepth="PT3M" suggestedPresentationDelay="PT4S" maxSegmentDuration="PT3S" minBufferTime="PT2S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264">
   <Period id="1" start="PT0S">
-    <BaseURL>https://l05.dp.sooka.my/1004/linear/</BaseURL>
+    <BaseURL>https://l05.dp.sooka.my/wmt:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NjI5Nzc2NTAsImlzcyI6IlZSIiwiZXhwIjoxNzYzMDA2NDUwLCJ3bXZlciI6Mywid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjMsIndtdG1pZHZlciI6NCwid21pZGxlbiI6NTEyLCJ3bW9waWQiOjMyLCJ3bWlkIjoiYTdjNTM3ZDMtODVmMC00NzYzLWIyYmItNGVmZWFhMGJiNzRmIiwiZmlsdGVyIjoiKHR5cGU9PVwidmlkZW9cIiYmRGlzcGxheUhlaWdodDw9NzIwKXx8KHR5cGU9PVwiYXVkaW9cIiYmZm91ckNDIT1cImFjLTNcIil8fCh0eXBlIT1cInZpZGVvXCImJnR5cGUhPVwiYXVkaW9cIikiLCJwYXR0ZXJuIjoiMTAwNCJ9.NqyZ62OBN9OZAifmQ-MfL6191ut404kB5gQ0zhw4zog/1004/linear/dash/</BaseURL>
     <AdaptationSet id="1" group="1" contentType="audio" lang="ms" segmentAlignment="true" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.5" startWithSAP="1">
       <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <SegmentTemplate timescale="48000" initialization="1004-$RepresentationID$.dash?ctype=live" media="1004-$RepresentationID$-$Time$.dash?ctype=live">
-        <!-- 2025-11-09T19:35:37.491458Z / 1762716937 - 2025-11-09T19:38:39.507458Z -->
+        <!-- 2025-11-12T19:58:05.502125Z / 1762977485 - 2025-11-12T20:01:07.475458Z -->
         <SegmentTimeline>
-          <S t="84610412999590" d="96256" r="2"/>
+          <S t="84622919304102" d="96256"/>
           <S d="94208"/>
           <S d="96256" r="6"/>
           <S d="94208"/>
@@ -32,6 +32,8 @@
           <S d="96256" r="6"/>
           <S d="94208"/>
           <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="audio_40080_may=40000" bandwidth="40000">
@@ -41,9 +43,9 @@
       <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <SegmentTemplate timescale="48000" initialization="1004-$RepresentationID$.dash?ctype=live" media="1004-$RepresentationID$-$Time$.dash?ctype=live">
-        <!-- 2025-11-09T19:35:37.491458Z / 1762716937 - 2025-11-09T19:38:39.507458Z -->
+        <!-- 2025-11-12T19:58:05.502125Z / 1762977485 - 2025-11-12T20:01:07.475458Z -->
         <SegmentTimeline>
-          <S t="84610412999590" d="96256" r="2"/>
+          <S t="84622919304102" d="96256"/>
           <S d="94208"/>
           <S d="96256" r="6"/>
           <S d="94208"/>
@@ -66,6 +68,8 @@
           <S d="96256" r="6"/>
           <S d="94208"/>
           <S d="96256" r="6"/>
+          <S d="94208"/>
+          <S d="96256"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="audio_40082_mul=40000" bandwidth="40000">
@@ -74,9 +78,9 @@
     <AdaptationSet id="3" group="3" contentType="text" lang="ms" mimeType="application/mp4" codecs="stpp.ttml.im1t" startWithSAP="1">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
       <SegmentTemplate timescale="1000" initialization="1004-$RepresentationID$.dash?ctype=live" media="1004-$RepresentationID$-$Time$.dash?ctype=live">
-        <!-- 2025-11-09T19:35:39.468000Z / 1762716939 - 2025-11-09T19:38:39.468000Z -->
+        <!-- 2025-11-12T19:58:07.468000Z / 1762977487 - 2025-11-12T20:01:07.468000Z -->
         <SegmentTimeline>
-          <S t="1762716939468" d="2000" r="89"/>
+          <S t="1762977487468" d="2000" r="89"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="textstream_839712770_may=8000" bandwidth="8000">
@@ -85,9 +89,9 @@
     <AdaptationSet id="4" group="3" contentType="text" lang="en" mimeType="application/mp4" codecs="stpp.ttml.im1t" startWithSAP="1">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
       <SegmentTemplate timescale="1000" initialization="1004-$RepresentationID$.dash?ctype=live" media="1004-$RepresentationID$-$Time$.dash?ctype=live">
-        <!-- 2025-11-09T19:35:39.468000Z / 1762716939 - 2025-11-09T19:38:39.468000Z -->
+        <!-- 2025-11-12T19:58:07.468000Z / 1762977487 - 2025-11-12T20:01:07.468000Z -->
         <SegmentTimeline>
-          <S t="1762716939468" d="2000" r="89"/>
+          <S t="1762977487468" d="2000" r="89"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="textstream_839778306_eng=8000" bandwidth="8000">
@@ -107,9 +111,9 @@
       </ContentProtection>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <SegmentTemplate timescale="600" initialization="1004-$RepresentationID$.dash?ctype=live" media="1004-$RepresentationID$-$Time$.dash?ctype=live">
-        <!-- 2025-11-09T19:35:39.468333Z / 1762716939 - 2025-11-09T19:38:39.468333Z -->
+        <!-- 2025-11-12T19:58:07.468333Z / 1762977487 - 2025-11-12T20:01:07.468333Z -->
         <SegmentTimeline>
-          <S t="1057630163681" d="1200" r="89"/>
+          <S t="1057786492481" d="1200" r="89"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="video=4320400" bandwidth="4000000" width="1920" height="1080" sar="1:1" codecs="avc1.640029" scanType="progressive" frameRate="50" mimeType="video/mp4">
